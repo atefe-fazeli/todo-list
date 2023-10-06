@@ -2,7 +2,7 @@
 
 This is a simple Todo List application built using pure JavaScript. It allows you to add and delete tasks on your to-do list.
 
-![Todo List Screenshot](./image/screenshot.png)
+![Todo List Screenshot](./image/screenshot.PNG)
 
 ## Features
 
