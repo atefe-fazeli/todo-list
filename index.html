@@ -12,28 +12,15 @@
   <body>
     <div class="container">
 
-      <ul class="list-group todos mx-auto text-light">
-          <li class="list-group-item d-flex justify-content-between align-items-center">
-              <span>Do yoya</span>
-              <i class="fa fa-trash-o delete"></i>
-          </li>
-          <li class="list-group-item d-flex justify-content-between align-items-center">
-              <span>50 pushups</span>
-              <i class="fa fa-trash-o delete"></i>
+      <ul id="todos" class="list-group todos mx-auto text-light">
 
-          </li>
-          <li class="list-group-item d-flex justify-content-between align-items-center">
-              <span>Read Book Novel</span>
-              <i class="fa fa-trash-o delete"></i>
-
-          </li>
       </ul>
 
       <form class="add text-center my-4" autocomplete="off">
           <label class="text-light">
               Add New Todo...
           </label>
-          <input type="text" class="form-control m-auto" name="add"/>
+          <input id="todo-item" type="text" class="form-control m-auto" name="add"/>
       </form>
   </div>
 
